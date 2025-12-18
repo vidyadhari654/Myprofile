@@ -176,13 +176,20 @@ animation-delay: 1s;
     align-items: center;
     gap: 1.5rem;
 }
+.about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .about-img img
 {
-    padding-bottom: 20%;
-    max-width: 630px;
-    height: 50%;
-    width: 50%;
-    border-radius: 8px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0ef;
+    box-shadow: 0 0 20px #0ef;
+    display: block;
 }
 .about-text h2
 {
